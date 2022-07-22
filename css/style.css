@@ -47,3 +47,14 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.flexContainer div {
+  width: 33%;
+  padding: 5%;
+}
