@@ -51,7 +51,7 @@ footer li {
 .flexContainer {
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
 }
 
 .flexContainer div {
