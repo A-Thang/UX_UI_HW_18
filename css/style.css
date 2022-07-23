@@ -60,6 +60,7 @@ footer li {
 }
 
 .workGrid {
+  margin: 0px 5px;
   padding: 5%;
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
@@ -97,4 +98,28 @@ footer li {
 
 h1 {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightcoral;
+  }
+  .workGrid {
+    margin: 0px 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "image1" "item1" "image2" "item2" "image3" "item3";
+    justify-content: center;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+  .flexContainer div {
+    width: 100%;
+    padding: 5%;
+  }
 }
